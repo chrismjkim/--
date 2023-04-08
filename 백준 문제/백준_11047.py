@@ -7,6 +7,4 @@ coin = []
 for _ in range(n):
     coin.append(int(input()))
 
-coin = coin.reverse()
-
 print(coin)

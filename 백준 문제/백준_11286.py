@@ -34,7 +34,7 @@ import sys
 input = sys.stdin.readline
 arr = []
 hq.heapify(arr)
-for _ in range(int(input())):
+for _ in range(int(input())):   
     x = int(input())
     if x==0:
         print(hq.heappop(arr)[1]) if arr else print("0")
